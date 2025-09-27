@@ -4,3 +4,5 @@ function createpost() {
   p.textContent = "New Post"
   place.appendChild(p)
 }
+
+Document.getElementById("createpostbutton").onclick = createpost;
